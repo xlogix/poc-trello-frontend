@@ -1,0 +1,16 @@
+.App {
+  background: #8fa6cc;
+  height: 100vh;
+}
+
+.Header {
+  background: #122e54;
+  color: #39f8cf;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+}

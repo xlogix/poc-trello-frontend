@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "abhishek@gmail.com",
+      "pass": "abhi",
+      "profilePic": ""
+    },
+    {
+      "id": 2,
+      "email": "testing@gmail.com",
+      "pass": "abhi",
+      "profilePic": ""
+    },
+    {
+      "id": 3,
+      "email": "test@gmail.com",
+      "pass": "abhi",
+      "profilePic": ""
+    }
+  ],
+  "boards": [
+    {
+      "id": 11,
+      "title": "Test Board",
+      "cover": "",
+      "user": 1
+    }
+  ],
+  "cards": [
+    {
+      "title": "Todo",
+      "id": 21
+    },
+    {
+      "title": "In-progress",
+      "id": 22
+    },
+    {
+      "id": 23,
+      "title": "Done"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "47510006-13e2-438a-bf9c-0e4f2a1fe5d0",
+      "title": "sfsfsfa",
+      "completed": false,
+      "parentId": 22
+    },
+    {
+      "id": "944d3423-de69-4641-8e6e-258245ccdb32",
+      "title": "sdwdq",
+      "completed": false,
+      "parentId": 22
+    },
+    {
+      "id": "845644ac-a1dd-421f-a964-3a36f6ed9ada",
+      "title": "new comment",
+      "completed": false,
+      "parentId": 21
+    },
+    {
+      "id": "6876b05d-c830-4b0a-8f6e-fd0071b4b828",
+      "title": "another new",
+      "completed": false,
+      "parentId": 21
+    },
+    {
+      "id": "2289a5f9-e9ad-44a7-b55f-605014224549",
+      "title": "dsss",
+      "completed": false,
+      "parentId": 21
+    }
+  ]
+}

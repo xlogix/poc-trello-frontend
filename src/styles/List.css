@@ -1,0 +1,37 @@
+.List {
+  background: rgba(5, 120, 190, 0.12);
+  flex-shrink: 0;
+  width: 272px;
+  height: fit-content;
+  margin: 10px;
+  margin-right: 0;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.List-Title {
+  cursor: pointer;
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+
+.Toggle-Add-Card {
+  cursor: pointer;
+  padding: 10px;
+  color: rgb(53, 48, 53);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Toggle-Add-Card:hover {
+  background-color: #10878b;
+  color: rgb(1, 28, 43);
+  text-decoration: underline;
+}
+
+.Toggle-Add-Card ion-icon {
+  margin-right: 2px;
+}

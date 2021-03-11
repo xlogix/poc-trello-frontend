@@ -1,0 +1,58 @@
+{
+  "name": "poc-trello-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "prettier": "^2.2.1",
+    "react": "^16.14.0",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.3",
+    "react-textarea-autosize": "^8.3.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.16",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db/db.json --port 3001"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.1.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
+}
